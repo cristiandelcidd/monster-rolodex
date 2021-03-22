@@ -1,0 +1,23 @@
+.card-container {
+   backface-visibility: hidden;
+   background: #90cece;
+   border: 1px solid #000;
+   border-radius: 5px;
+   cursor: pointer;
+   display: flex;
+   flex-direction: column;
+   padding: 5px 10px;
+   transition: transform .3s ease;
+
+   img {
+      width: 70%;
+      margin: auto;
+   }
+
+   &:hover {
+      transform: scale(1.05);
+   }
+   h2, p {
+      text-align: center;
+   }
+}
